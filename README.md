@@ -1,7 +1,7 @@
 # Data Algorithm
        算法导论第三版学习
 
-## 第一章 算法在计算中的作用
+## 第一章 [算法在计算中的作用](https://github.com/DjSasadvs/Data-Algorithm/blob/master/chapter%20one.md)
 * 算法的含义
 
 ## 第二章 算法基础
