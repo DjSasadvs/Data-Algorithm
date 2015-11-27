@@ -17,4 +17,4 @@
   * 存储结构：机内关系-节点，机内表示-顺序存储、链式存储
   * 运算结构
   
-[总目录-Back Here](https://github.com/DjSasadvs/Data-Algorithm/blob/master/README.md)
+[总目录-Back](https://github.com/DjSasadvs/Data-Algorithm/blob/master/README.md)
