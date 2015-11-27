@@ -8,7 +8,7 @@
 *  插入排序
 *  分治算法
 
-## 第三章 函数的增长
+## 第三章 [函数的增长](https://github.com/DjSasadvs/Data-Algorithm/blob/master/chapter%20three.md)
 * 渐近符号
 * 标准符号与常用函数
 
