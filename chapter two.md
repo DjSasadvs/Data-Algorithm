@@ -9,7 +9,7 @@
 * 复杂度：时间Θ(n*n)
 * 实现c++
 ```
-for j=1 to A.length-1
+for j = 1 to A.length-1
    key = A[j]
    i = j - 1
    while i >= 0 and A[i] > key
@@ -54,3 +54,5 @@ merge(A, begin, mid, end)
          A[k] = R[j]
          j = j + 1
 ```
+
+[总目录-Back](https://github.com/DjSasadvs/Data-Algorithm/blob/master/README.md)
