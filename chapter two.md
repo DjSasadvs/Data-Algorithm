@@ -11,8 +11,8 @@
 ```
 for j=1 to A.length-1
    key = A[j]
-   i = j-1
-   while i>=0 and A[i-1]>A[j]
+   i = j - 1
+   while i >= 0 and A[i] > key
       A[i+1] = A[i]
       i--;
    A[i+1] = key
@@ -30,27 +30,27 @@ for j=1 to A.length-1
 * 实现：c++
 ```
 merge_Sort(A, begin, end)
-   if begin<end
-      mid = ⌊(begin+end)/2⌋
+   if begin < end
+      mid = ⌊(begin + end)/2⌋
       merge_Sort(A, begin, mid)
-      merge_Sort(A, mid+1, end)
+      merge_Sort(A, mid + 1, end)
       merge(A, begin, mid, end)
       
 merge(A, begin, mid, end)
-   n1 = mid-begin+1
-   n2 = end-mid
+   n1 = mid - begin + 1
+   n2 = end - mid
    let L[0..n1] and R[0..n2] be new arrays
-   for i=0 to n1-1
-      L[i] = A[begin+1]
-   for j=0 to n2-1
-      R[j] = A[mid+1+j]
+   for i = 0 to n1-1
+      L[i] = A[begin + 1]
+   for j = 0 to n2-1
+      R[j] = A[mid + 1 + j]
    L[n1] = R[n2] = ∞
    i = j = 1
-   for k=begin to end
-      if L[i]<=R[j]
+   for k = begin to end
+      if L[i] <= R[j]
          A[k] = L[i]
-         i=i+1
+         i = i + 1
       else
          A[k] = R[j]
-         j = j+1
+         j = j + 1
 ```
