@@ -26,6 +26,6 @@
     * 多重对数函数：lg*n，只有在lg(i-1)n > 0时，lgin才有意义，特点：增长慢 (((a^n)^n)^n)，lg*(2^65536) = 5
     * 斐波那契函数：f(i) = f(i-1) + f(i-2), i>=2, 于黄金分割率的关系
 
-注解：本章知识依赖于高等数学的基础<br>
+注解：本章知识依赖于高等数学的基础，所以快去看高数<br>
 
 [总目录-Back](https://github.com/DjSasadvs/Data-Algorithm/blob/master/README.md)
