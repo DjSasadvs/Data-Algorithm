@@ -12,11 +12,18 @@
 * 渐近符号
 * 标准符号与常用函数
 
-## 第四章分治策略
+## 第四章[分治策略](https://github.com/DjSasadvs/Data-Algorithm/blob/master/chapter%20four.md)
 * 最大子数组
   * Θ(n*n), Θ(nlgn), Θ(n)
 * 矩阵乘法Strassen
-<br>未完待续
----------------
+* 递归式求解
+  * 代入法
+  * 递归树法
+  * 主方法
+  * Akra-Bazzi方法
+
+## 第五章 概率分析和随机算法
+
+持续更新 敬请关注
 
 
