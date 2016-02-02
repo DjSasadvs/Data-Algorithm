@@ -2,7 +2,7 @@
 ------------------
 ### 雇佣问题
 * HIRE-ASSISTANT策略
-  ```
+```
   HIRE-ASSISTANT(n)
     best = 0
     for i = 1 to n
@@ -10,7 +10,7 @@
       if candidate is better than candidate best
         best = i
         hire candidate i
-  ```
+```
   分析：O(ci\*n+ch\*m)
   
 ### 指示器随机变量
