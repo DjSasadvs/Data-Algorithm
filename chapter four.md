@@ -87,5 +87,5 @@
   * 其中我们将 n/b 解释为⌈n/b⌉或 ⌊n/b⌋。那么T(n)有如下渐进界：
     * 若对某个常数 ε>0 有 f(n)=O(n^logb(a-ε))，则 T(n)=Θ(n^logb(a))。
     * 若 f(n)=O(n^log(a))，则 T(n)=Θ((n^logb(a))\*lgn)。
-    * 若对于某个常数 ε>0 有f(n)=Ω(logb(a+ε))，且对某个常数 c<1 和所有足够大的 n 有 af(n/b)<=cf(n)，则 T(n)=O(f(n))。
+    * 若对于某个常数 ε>0 有f(n)=Ω(logb(a+ε))，且对某个常数 c<1 和所有足够大的 n 有 af(n/b)<=cf(n)，则 T(n)=O(f(n))。<br/>
 [总目录-Back](https://github.com/DjSasadvs/Data-Algorithm/blob/master/README.md)
