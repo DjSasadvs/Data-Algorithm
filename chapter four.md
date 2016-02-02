@@ -21,7 +21,7 @@
 * 使用分治策略的方法求解
   * 完全位于子数组A[low, mid]中，因此low <= i <= j <= mid
   * 完全位于子数组A[mid+1……high]中，因此mid < i <= j <= high
-  * 跨越了中点，因此low <= i < mid < j <= high
+  * 跨越了中点，因此low <= i < mid < j <= high<br/>
   T(n) = Θ(nlgn)
     ```
     FIND-MAX-CROSSING-SUBARRAY(A, low, mid, high)
